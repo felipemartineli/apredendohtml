@@ -15,6 +15,80 @@ header h1{
   text-indent: -1000px;
   margin-bottom: 0px;
 }
+header #anuncio {
+  width: 510px;
+  float: left;
+  margin: 80px auto auto;
+  padding-top: 0px;
+}
+
+header section a[href="boletim.html"]{
+  border: solid #C0262C thin;
+  padding: 15px;
+  border-radius: 15px;
+  color: #C0262C;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+header section p{
+  color: #999999;
+  margin: 33px auto 7px;
+}
+header section figure{
+  width: 100%;
+  margin: 0px;
+}
+
+header section figure a {
+  padding: 25px 5px 0;
+  border: none;
+}
+
+header section figure a:last-child {
+  padding: 25px 0 0 5px;
+}
+/* estrutura de navegação */
+nav{
+  background-color: #000;
+  overflow: auto;
+  clear: both;
+  margin-top: 10px;
+}
+nav ul{
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 1px;
+}
+nav ul li{
+  float: left;
+}
+
+nav ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 8px 50px;
+  line-height: 2em;
+}
+#inicial a[href="index.html"],
+#quemSomos a[href="quem-somos.html"],
+#produtos a[href="produtos.html"],
+#banhoEtosa a[href="banho-e-tosa.html"],
+#curiosidades a[href="curiosidades.html"]{
+  background-color: #C0262C;
+}
+/* estrutura págino inicial */
+#inicial aside {
+  width: 230px;
+  float: left;
+  margin-top: 30px;
+}
+#inicial main {
+  width: 490px;
+  float: left;
+  margin: 30px 25px 10px;
+}
 /*textos da area principal*/
 main h1 {
     color: #C0262C;
